@@ -3,8 +3,7 @@ package model
 data class Player(
     val name: String,
     val team: Team,
-    val city: String,
-    val position: String,
+    val position: Position,
     val nationality: String,
     val agency: String?,
     val transferCost: Int,
